@@ -7,6 +7,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    text-align: center; /* Centra el texto */
 }
 
 .container {
@@ -91,4 +92,16 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+/* Estilos específicos para ok.html */
+h1 {
+    color: #007BFF; /* Color de texto */
+    margin-top: 20px; /* Espacio superior */
+}
+
+video {
+    margin-top: 20px;
+    max-width: 300px; /* Limitar el tamaño del video */
+    height: auto;
 }

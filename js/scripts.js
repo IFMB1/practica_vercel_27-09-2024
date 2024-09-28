@@ -28,7 +28,7 @@ function registerUser(event) {
     alert('Registro exitoso. Ahora puedes iniciar sesión.');
 
     // Redirigir a la página de inicio de sesión
-    window.location.href = 'login.html';
+    window.location.href = 'index.html';
 }
 
 // Añadir el evento 'submit' al formulario de registro
